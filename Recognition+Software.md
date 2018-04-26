@@ -23,7 +23,7 @@ ResNet Model. In only 75 epochs or iterations of training, it recorded 85.2% at 
 
 VGG9 Model. This was the best performing at prediction and training recording 85.6% and 91.18% respectively. This was the model used in most of the test carried out with images downloaded from the web or those that did not belong to the University of 
 
-## How to Software with Trained Model
+## How to Run Software with Trained Model
 
 
 ```python
