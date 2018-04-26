@@ -1,5 +1,5 @@
 
-# Trained Models
+# Trained Models Real-time Obstacle Recognition
 
 This ismilar to the models readme. However, the how to use model that was added to the models is the most useful here. Below is the same content of the models' README.
 
@@ -27,12 +27,12 @@ VGG9 Model. This was the best performing at prediction and training recording 85
 
 
 ```python
-python model_eval.py --image_dir images --model_name ./pred_vgg9.dnn# model_name is optional as a default is there, the name of the dir to find the images is the "images"
+python TMOR_Main_Software.py --image_dir images --model_path ./pred_vgg9.dnn# model_path is optional as a default is there, the name of the dir to find the images is the "images"
 ```
 
 
 ```python
-%run model_eval.py --image_dir images  --model_name ./pred_vgg9.dnn# model_name is optional as a default is there,# if using QtConsole -the name of the dir to find the images is the "images"
+%run TMOR_Main_Software.py --image_dir images  --model_path ./pred_vgg9.dnn# model_path is optional as a default is there,# if using QtConsole -the name of the dir to find the images is the "images"
 ```
 
 It is assumed the user is in the directory where the application is located. Otherwise the path should match accordingly.

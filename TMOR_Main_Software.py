@@ -26,8 +26,9 @@ label_lookup = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", 
 z = load_model('./pred_vgg9_300_400.dnn')
 
 arg_parser = argparse.ArgumentParser()	
-arg_parser.add_argument("-d", "--image_dir", type=str, default="./images", required=True,
-	help="the directory to get test images")
+arg_parser.add_argument("-d", "--image_dir", type=str, default="./images", required=False,
+	help="the directory to get test images","-m", "--model_path", type=str, default="./pred_vgg9_300_400.dnn", required=False,
+	help="Path to find the trained model")
 
 args = vars(arg_parser.parse_args())
         
